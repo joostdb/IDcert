@@ -1,7 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1801d091-4594-41d2-873a-79a5982ca061" name="Default Changelist" comment="" />
+    <list default="true" id="1801d091-4594-41d2-873a-79a5982ca061" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app_local.example.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app_local.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bootstrap_cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/requirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/schema/i18n.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/schema/sessions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/ConsoleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Component/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ErrorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/PagesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SitesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Behavior/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entity/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Table/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Table/ArchiefTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Table/IdcertTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Table/IdskuTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/AjaxView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/AppView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Cell/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Helper/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Error/error400.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Error/error500.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Pages/go.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Pages/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Sites/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Sites/go.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cell/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/element/flash/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/element/flash/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/element/flash/success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/email/html/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/email/text/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/email/html/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/email/text/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/idcert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/css/cake.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/css/milligram.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/font/cakedingbats-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/font/cakedingbats-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/font/cakedingbats-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/font/cakedingbats-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/font/cakedingbats-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/cake-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/cake.icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/cake.logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/cake.power.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/img/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webroot/js/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +106,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oCpVKdpzJyO9KsjhbMsQwPvns4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -24,7 +128,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joost\PhpstormProjects\IDcert\config" />
+      <recent name="C:\Users\joost\PhpstormProjects\IDcert\src\Model\Table" />
+      <recent name="C:\Users\joost\PhpstormProjects\IDcert\templates\Sites" />
+      <recent name="C:\Users\joost\PhpstormProjects\IDcert\src\Controller" />
+      <recent name="C:\Users\joost\PhpstormProjects\IDcert\templates\Pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joost\PhpstormProjects\IDcert\webroot\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,11 +152,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612800449191</updated>
-      <workItem from="1612800450409" duration="142000" />
+      <workItem from="1612800450409" duration="16998000" />
+      <workItem from="1613295820157" duration="1201000" />
+      <workItem from="1613401751019" duration="1197000" />
+      <workItem from="1613464558801" duration="423000" />
+      <workItem from="1613472147507" duration="593000" />
+      <workItem from="1616751666950" duration="6213000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
