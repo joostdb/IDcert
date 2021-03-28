@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1801d091-4594-41d2-873a-79a5982ca061" name="Default Changelist" comment="DESKTOP">
-      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,7 +65,7 @@
       <workItem from="1613401751019" duration="1197000" />
       <workItem from="1613464558801" duration="423000" />
       <workItem from="1613472147507" duration="593000" />
-      <workItem from="1616751666950" duration="6410000" />
+      <workItem from="1616751666950" duration="7632000" />
     </task>
     <task id="LOCAL-00001" summary="DESKTOP">
       <created>1616871857819</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616871857820</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DESKTOP">
+      <created>1616872040992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616872040992</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
